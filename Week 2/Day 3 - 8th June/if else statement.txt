@@ -1,0 +1,23 @@
+
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        System.out.println("Conditional Statements");
+        Scanner src = new Scanner(System.in);
+        
+        System.out.print("Enter your age - ");
+        
+        int age = src.nextInt();
+        if(age>=18 && age<=120){
+            System.out.println("Eligible for voting");
+        }else if(age == 0){
+            System.out.println("Not Eligible for voting");
+        }else if(age < 0){
+            System.out.println("Not Eligible for voting");
+        }
+        
+        else{
+            System.out.println("Not Eligible for voting");
+        }
+    }
+}

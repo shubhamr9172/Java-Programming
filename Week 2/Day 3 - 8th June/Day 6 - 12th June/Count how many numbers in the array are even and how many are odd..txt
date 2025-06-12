@@ -1,0 +1,31 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+//4.Count how many numbers in the array are even and how many are odd.
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+       Scanner src = new Scanner(System.in);
+       
+       int a[] = {20,10,40,9,2,7,11,22,44,57,60};
+       int even = 0;
+       int odd = 0;
+       
+       for(int i=0;i<11;i++){
+           if(a[i]%2==0){
+               even = even+1;
+           }else{
+               odd = odd+1;
+           }
+       }
+       System.out.println("Even Values " +even);
+       System.out.println("Odd Values " +odd);
+       
+ 
+    
+        
+        
+    }
+}

@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("1D - Array");
+        Scanner src = new Scanner(System.in);
+        
+        int arr[]= new int[5];
+        System.out.println("Enter Array Values ");
+        
+        for(int i=0;i<5;i++){
+           arr[i] = src.nextInt(); 
+        }
+        
+        for(int i=0;i<5;i++){
+           System.out.println("Array Values - "+arr[i]); 
+        }
+        
+    }
+}
